@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+/* CSS Document */
+
+
+/**
+ * --------------------------------------------------
+ * BALISES
+ * --------------------------------------------------
+**/
+body{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2vh;
+}
+main{
+    height: 120vh;
+    
+}
+footer{
+    height:10vh;
+    vertical-align: center;
+    text-align: center;
+    color: white;    
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+aside{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-size:3vh;
+}
+footer a{
+    color: white; 
+    text-shadow: inherit;
+}
+footer a:hover{
+    color: crimson;
+    text-shadow: inherit;
+}
+/**
+ * --------------------------------------------------
+ * CLASSES
+ * --------------------------------------------------
+**/
+
+.cadre_1 {
+    text-align: center;
+    font-size: 2vh;
+    padding-top: 1vh;
+    padding-right: 7vh;
+    border: 1px dashed crimson;
+    border-radius: 5px;
+}
+.cadre_2 {
+
+    font-size: 2vh;
+    padding-top: 1vh;
+    border: 1px dashed black;
+    border-radius: 5px;
+}
+.biere{
+    height:8vh;
+}
+
+/**
+ * --------------------------------------------------
+ * IDS
+ * --------------------------------------------------
+**/
+
+
+#navbarNav a{
+    color: white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+#navbarNav a:hover{
+    color: red;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+#header{
+    height:6vh;    
+    left: 0;
+    top: 0;
+    right: 0;
+}
+#titre{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    font-size: 7vh;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    color: crimson;
+    
+}
+#lien a{
+    color: red; 
+    text-shadow: inherit;
+}
+#lien a:hover{
+    color: yellow;
+    background-color: crimson;
+    text-decoration: none;
+    border-radius: 3px;
+    text-shadow: inherit;
+}
+#carousel{
+    height: 100vh;
+}
+#footer{
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+#ville{
+    background-image: url(../../images/ville1.jpg);
+    height:120vh;
+}
+#groupe{
+    background-image: url(../../images/tunnel1.jpg);
+    height:120vh;
+    border-radius: 5px;
+}
+#taverne{
+    background-image: url(../../images/taverne.jpg);
+    height:120vh;
+    border-radius: 5px;
+}
+#img_nain{
+    padding-left: 9vh;
+}

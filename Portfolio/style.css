@@ -1,0 +1,164 @@
+/*CSS Document*/
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+/**
+ * --------------------------------------------------
+ * BALISES
+ * --------------------------------------------------
+**/
+body {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;    
+}
+h1{
+    text-shadow: 2px 0 0 white, 0 2px 0 white, 0 -2px 0 black, -2px 0 0 white, 2px 2px 0 white, 2px -2px 0 white, -2px 2px 0 white, -2px -2px 0 white;
+}
+br+h2,h2+p,h2+p+p{
+    color: white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+span{
+    color: red;
+}
+ul li a{
+    color:red !important;
+}
+
+/*social media icons - CSS animation */
+section#contact a {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+a.git {
+    background: url(img/logos/social_media.png) 0px top;
+}
+
+a.in {
+    background: url(img/logos/social_media.png) -384px top;
+}
+
+a.tw {
+    background: url(img/logos/social_media.png)  -512px top;
+}
+
+
+section#contact li:hover a.git {
+    background: url(img/logos/social_media.png)  0px bottom;
+}
+
+section#contact li:hover a.in {
+    background: url(img/logos/social_media.png) -384px bottom;
+}
+
+section#contact li:hover a.tw {
+    background: url(img/logos/social_media.png) -512px bottom;
+}
+
+/**
+ * --------------------------------------------------
+ * CLASSES
+ * --------------------------------------------------
+**/
+.separator{
+    width: 200px;
+    height: 2px;
+    background-color: red;
+    margin: 0 auto;
+}
+.padding-150 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    align-content: center;
+}
+.bg-dark {
+    background: #212529;
+}
+.bg-cloud {
+    background: rgb(236, 240, 241);
+}
+.text-dark {
+    color: #212529;
+}
+.text-cloud {
+    color: rgb(236, 240, 241);
+}
+.h-100 {
+    height: 100px;
+}
+.h-250 {
+    height: 250px;
+}
+.paddingZero {
+    padding: 0;
+}
+.padding-10 {
+    padding: 10px;
+}
+.padding-50 {
+    padding: 50px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-60 {
+    font-size: 60px;
+}
+.font-70 {
+    font-size: 70px;
+}
+.font-80 {
+    font-size: 80px;
+}
+
+/* navbar */
+.navbar {
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+/*.navbar-nav{
+    display: inline-flex;
+    flex-direction: row;
+
+}*/
+.bg-clear {
+    background: transparent;
+}
+
+
+/* header */
+.bg {
+    background: url('img/computer/computer_5.jpg') 100%;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+
+/*contact*/
+.bg-contact{
+    background: url('img/contact/mail_box.jpg') 100%;
+}
+
+
+/**
+ * --------------------------------------------------
+ * IDS
+ * --------------------------------------------------
+**/
+#presentation p{
+    font-size: 22px;
+}
+
+
+
+
+

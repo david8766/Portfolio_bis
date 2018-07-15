@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* Document CSS */
+
+/**
+ * --------------------------------------------------
+ * STYLE GENERAL
+ * --------------------------------------------------
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* --- Pour les écrans inférieurs à 1020px --- */
+
+@media only screen and (max-width: 1020px) {
+
+/**
+ * --------------------------------------------------
+ * CLASSES
+ * --------------------------------------------------
+**/
+
+    .wrapper {
+        width: 800px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+/**
+ * --------------------------------------------------
+ * IDS
+ * --------------------------------------------------
+**/
+    #destinations ul li {
+        width: 250px;
+        float: left;
+        padding-top: 140px;
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #circuits article {
+        width: 380px;
+        height: 270px;
+        float: left;
+        border-radius: 10px;
+    }
+    
+    
+}
+
+/* --- Pour les écrans inférieurs à 800px --- */
+
+@media only screen and (max-width: 820px) {
+
+/**
+ * --------------------------------------------------
+ * BALISES
+ * --------------------------------------------------
+**/
+
+    h1{
+        font-size: 35px;
+    }
+
+    header nav ul li a {
+        margin-right: 15px;
+    }
+
+    form {
+        margin: 20px 0 20px 0;
+    }
+
+    label {
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 5px;
+        color: #777;
+    }
+
+    input[type="text"] {
+        padding: 5px;
+        font-size: 15px;
+        margin-right: 10px;
+        border: 2px solid #ddd;
+        border-radius: 3px;
+    }
+
+/**
+ * --------------------------------------------------
+ * CLASSES
+ * --------------------------------------------------
+**/
+    .wrapper {
+        width: 700px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .bouton3 {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 11px;
+        background-color: #02b8dd;
+        border-radius: 3px;
+        border-style: none;
+    }
+
+/**
+ * --------------------------------------------------
+ * IDS
+ * --------------------------------------------------
+**/
+    #destinations ul li {
+        width: 230px;
+        float: left;
+        padding-top: 140px;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    #circuits article {
+        width: 300px;
+        height: 270px;
+        float: left;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+}
+
+/* --- Pour les écrans inférieurs à 768px --- */
+
+@media only screen and (max-width: 768px) {
+
+/**
+ * --------------------------------------------------
+ * BALISES
+ * --------------------------------------------------
+**/
+    h1 {
+        font-size: 30px;
+        margin-left: 5px
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+    header nav {
+        float: right;
+        margin-top: 45px;       
+    }
+
+    header nav ul li a {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+        padding-right: 5px;
+    }
+
+/**
+ * --------------------------------------------------
+ * CLASSES
+ * --------------------------------------------------
+**/
+
+    .wrapper {
+        width: 580px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+/**
+ * --------------------------------------------------
+ * IDS
+ * --------------------------------------------------
+**/
+    #destinations ul li {
+        width: 190px;
+        float: left;
+        padding-top: 120px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #circuits article {
+        width: 250px;
+        height: 270px;
+        float: left;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    #circuits article h4{
+        padding-top: 50px;
+    }
+    #img1 {
+        background: url("images/steps-icon-1-m.png") no-repeat top center;
+    }
+
+    #img2 {
+        background: url("images/steps-icon-2-m.png") no-repeat top center;
+    }
+
+    #img3 {
+        background: url("images/steps-icon-3-m.png") no-repeat top center;
+    }
+
+    #contact p{
+        padding:10px;
+    }
+
+    
+}
+
+/* --- Pour les écrans inférieurs à 600px --- */
+
+@media only screen and (max-width: 600px) {
+
+/**
+ * --------------------------------------------------
+ * BALISES
+ * --------------------------------------------------
+**/
+
+    header h1 {
+        font-size: 35px;
+        margin-left: 100px
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+    
+
+    p {
+        font-size: 15px;
+        padding-right: 5px;
+    }
+
+    header nav {
+        float: right;
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+
+    form{
+        padding: 20px;
+    }
+
+/**
+ * --------------------------------------------------
+ * CLASSES
+ * --------------------------------------------------
+**/
+    .wrapper {
+        width: 440px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+/**
+ * --------------------------------------------------
+ * IDS
+ * --------------------------------------------------
+**/
+    #destinations ul li {
+        width: 440px;
+        float: left;
+        padding-top: 100px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #circuits article {
+        width: 400px;
+        height: 270px;
+        float: left;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+
+    #name {
+        width: 200px;
+        margin-right: 95px;
+    }
+    #email {
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    
+    
+}
+
+

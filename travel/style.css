@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* Document CSS */
+
+/**
+ * --------------------------------------------------
+ * STYLE GENERAL
+ * --------------------------------------------------
+**/
+*
+{
+	margin:0;
+    padding:0; 
+}
+
+/**
+ * --------------------------------------------------
+ * BALISES
+ * --------------------------------------------------
+**/
+body
+{
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+}
+h1
+{
+	font-family: 'Crete Round', serif;
+	font-size: 45px;
+	color: #444;
+}
+h2
+{
+	color: #444;
+	font-size: 55px; 
+}
+h3
+{
+	font-size: 30px;
+	color: #444;
+}
+h4
+{
+	font-size: 24px;
+	color: #444;
+}
+p
+{
+	line-height: 20px;
+	color: #777;
+}
+a
+{
+	text-decoration: none;
+	color: #444;
+}
+header
+{
+	height: 120px;
+}
+header h1
+{
+	float: left;
+	margin-top: 32px;
+}
+header nav
+{
+	float: right;
+	margin-top: 50px;
+}
+header nav ul li
+{
+	display: inline-block;
+	float: left;
+}
+header nav ul li a
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+}
+ul
+{
+	list-style: none;
+}
+article h4
+{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	text-align: center;
+}
+small
+{
+	font-size: 13px;
+	font-style: italic;
+}
+form
+{
+	margin: 60px 0 20px 0;
+}
+label
+{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+	color: #777;
+}
+input[type="text"]
+{
+	padding: 10px;
+	font-size: 20px;
+	margin-right: 20px;
+	border: 2px solid #ddd;
+	border-radius: 3px;
+}
+footer
+{
+	height: 260px;
+	background-color: #444;
+}
+footer h1
+{
+	color: white;
+	text-align: center;
+	padding-top: 80px;
+}
+footer p
+{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+	color: #777;
+}
+
+/**
+ * --------------------------------------------------
+ * CLASSES
+ * --------------------------------------------------
+**/
+.wrapper
+{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.clear
+{
+	clear: both;
+}
+.orange
+{
+	color: #ff7a00;
+}
+.bouton1
+{
+	width: 120px;
+	height: 50px;
+	display: block;
+	background: #ff7a00;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 auto;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 3px;
+
+}
+.bouton1:hover
+{
+	background: #02b8dd;
+}
+.over
+{
+	background: rgba(255,255,255,0.75);
+	height:100%;
+	width: 190px;
+	padding-bottom: 0px;
+	border-radius: 10px 0 0 10px;
+	text-align: center;
+}
+.bouton2
+{
+
+	background-color: #ff7a00;
+	color: #fff;
+	padding: 6px 20px;
+	border-radius: 3px;
+
+}
+.bouton2:hover
+{
+	background: #02b8dd;
+}
+.bouton3
+{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 11px;
+	background-color: #02b8dd;
+	border-radius: 3px;
+	border-style: none;
+
+}
+.bouton3:hover
+{
+	background: #444;
+}
+
+/**
+ * --------------------------------------------------
+ * IDS
+ * --------------------------------------------------
+**/
+#accueil
+{
+	height: 580px;
+	background: url("images/main.jpg") center;
+}
+#accueil h2
+{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding:150px 0 40px 0;
+	margin-bottom: 20px;
+}
+#destinations p
+{	
+	margin-bottom: 20px;
+}
+#destinations h4
+{
+	text-transform: uppercase;
+	margin-bottom: 20px;	
+}
+#destinations ul
+{
+	margin: 80px 0;
+}
+#destinations ul li
+{
+	width: 300px;
+	float:left;
+	padding-top: 140px;
+	text-align: center;
+	margin-right: 10px;
+}
+#img1
+{
+	background:url("images/steps-icon-1.png") no-repeat top center;
+}
+#img2
+{
+	background:url("images/steps-icon-2.png") no-repeat top center;
+}
+#img3
+{
+	background:url("images/steps-icon-3.png") no-repeat top center;
+}
+#circuits
+{
+	background-color: #efefef;
+	padding: 60px 0;
+
+}
+#circuits article
+{
+	width: 450px;
+	height: 270px;
+	float: left;
+	border-radius: 10px;
+}
+#circuits article:first-child
+{
+	margin-right: 20px;
+}
+#circuits p
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#contact
+{
+	padding: 60px 0;
+	text-align: center;
+}
+#contact h3
+{
+	text-transform: uppercase;
+	margin: 0 auto;
+	width: 400px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #02b8dd;
+	padding-bottom: 20px
+}
+/* --------------------------- */
